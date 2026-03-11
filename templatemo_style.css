@@ -308,3 +308,40 @@ p {
 	text-align: left;
 }
 /* end of footer */
+
+/* shopping cart styles - step 2 basic table */
+.cart_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    color: #000;
+}
+.cart_table th, .cart_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.cart_table th {
+    background: #be457c;
+    color: #fff;
+}
+.cart_total {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+/* additional styles added in step 5 */
+.cart_actions {
+    margin-top: 20px;
+    text-align: right;
+}
+.cart_actions a.button {
+    padding: 8px 15px;
+    background: #be457c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
