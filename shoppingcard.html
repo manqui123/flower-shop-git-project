@@ -121,10 +121,8 @@ function updateCart() {
     if (totalElem) totalElem.innerText = 'Grand Total: $' + grand.toFixed(2);
 }
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.cart_table tbody input').forEach(i =>
-        i.addEventListener('change', updateCart)
-    );
+    document.querySelectorAll('.cart_table tbody input')
+            .forEach(i => i.addEventListener('change', updateCart));
 });
 </script>
-</body>
-</html>
+
