@@ -308,3 +308,11 @@ p {
 	text-align: left;
 }
 /* end of footer */
+
+.about{
+   padding:40px;
+   background:#ffe4e1;
+   text-align:center;
+   font-size:18px;
+   line-height:1.6;
+}
