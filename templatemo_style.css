@@ -317,6 +317,26 @@ p {
     background: #fff;
     color: #000;
 }
+
+/* features page boxes */
+.feature_box {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    background: #ebbce5;
+    padding: 10px;
+    color: #000;
+}
+.feature_box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.feature_box h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #440522;
+}
 .cart_table th, .cart_table td {
     border: 1px solid #ddd;
     padding: 8px;
