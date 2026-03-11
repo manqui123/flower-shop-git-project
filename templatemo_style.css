@@ -337,6 +337,22 @@ p {
     font-size: 16px;
     color: #440522;
 }
+
+/* gallery page styles */
+.gallery_container {
+    overflow: hidden;
+}
+.gallery_item {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.gallery_item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .cart_table th, .cart_table td {
     border: 1px solid #ddd;
     padding: 8px;
