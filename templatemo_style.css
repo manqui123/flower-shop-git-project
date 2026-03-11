@@ -316,3 +316,10 @@ p {
    font-size:18px;
    line-height:1.6;
 }
+
+.banner{
+   background:pink;
+   color:white;
+   padding:80px;
+   text-align:center;
+}
